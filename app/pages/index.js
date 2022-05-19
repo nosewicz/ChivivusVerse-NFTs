@@ -228,7 +228,7 @@ export default function Home() {
 
     if (presaleStarted && presaleEnded) {
       return (
-        <button className="bg-violet-500 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded text-center" onCLick={publicMint}>Mint 🚀 (0.025 ETH)</button>
+        <button className="bg-violet-500 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded text-center" onClick={publicMint}>Mint 🚀 (0.025 ETH)</button>
       )
     }
   }
@@ -266,12 +266,12 @@ export default function Home() {
           <div className="p-3">
             <h4 className="text-xl font-bold">Whitelist</h4>
             <p>Sign up for the Chivivus Universe Whitelist to ensure your access into the ChivivusVerse!</p>
-            <p className="text-center mt-6"><a href="https://chiv-whitelist.vercel.app/" target="_blank"><button className="bg-teal-400 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded text-center">Sign Up</button></a></p>
+            <p className="text-center mt-6"><a href="https://chiv-whitelist.vercel.app/" target="_blank" rel="noreferrer"><button className="bg-teal-400 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded text-center">Sign Up</button></a></p>
           </div>
           <div className="p-3">
             <h4 className="text-xl font-bold">NFT Collection</h4>
             <p>Cement your membership in the ChivivusVerse buy minting one of our Limited Edition NFTs. Limited to only 20!</p>
-            <p className="text-center mt-6"><a href="https://testnets.opensea.io/collection/chivivus-nfts-jp2gp2wnbk" target="_blank"><button className="bg-sky-400 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded text-center">OpenSea</button></a></p>
+            <p className="text-center mt-6"><a href="https://testnets.opensea.io/collection/chivivus-nfts-jp2gp2wnbk" target="_blank" rel="noreferrer"><button className="bg-sky-400 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded text-center">OpenSea</button></a></p>
           </div>
           <div className="p-3">
             <h4 className="text-xl font-bold">ChivCoin</h4>
