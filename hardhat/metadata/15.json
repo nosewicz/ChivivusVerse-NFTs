@@ -1,0 +1,8 @@
+{
+  "description": "A Chivivus-Verse NFT. Limited Edition Collection",
+  "image": "ipfs://QmVop8uwNmpxKnhHDddXH45G8V2odCMP3drB91ZhPcJAJy/saz-4.png",
+  "name" : "Sazafraz",
+  "attributes": [
+    { "trait_type": "Background", "value": "Forest"}
+  ]
+}
