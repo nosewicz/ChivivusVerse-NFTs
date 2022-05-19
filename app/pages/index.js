@@ -240,6 +240,7 @@ export default function Home() {
         <meta name="description" content="Welcome to the ChivivusVerse NFT collection. Mint yours today!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <script>0</script>
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold">ChivivusVerse NFTs</h1>
         <p className="my-4">Welcome to the ChivivusVerse. In order to join, purchase one of our ChivivusVerse NFTs.</p>
