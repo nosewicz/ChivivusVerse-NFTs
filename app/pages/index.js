@@ -277,7 +277,7 @@ export default function Home() {
           <div className="p-3">
             <h4 className="text-xl font-bold">ChivCoin</h4>
             <p>The official ERC-20 token for the ChivivusVerse. Claimable airdrop for all ChivivusVerse NFT Collection holders. </p>
-            <p className="text-center mt-6"><button className="bg-gray-300 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded text-center cursor-not-allowed">Coming Soon</button></p>
+            <p className="text-center mt-6"><a href="https://chiv-coin.vercel.app/" target="_blank" rel="noreferrer"><button className="bg-gray-300 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded text-center cursor-not-allowed">Claim Tokens</button></a></p>
           </div>
           <div className="p-3">
             <h4 className="text-xl font-bold">ChivDAO</h4>
